@@ -32,6 +32,6 @@ For this project I received some special brotherly help to get a cartridge shell
 
 ## Final Outcome
 
-So there you have it, a homemade 32k ram expander. I plugged the cartridge in, and voilà, I was greeted with 28,159 bytes free, woohoo! ...now wait a minute (moment of panic), that's not 32K + 3, there is a whole 8K missing! After some research, I learned that memory is block 5 is not counted by Basic! All good, a few POKEs and PEEKs confirmed the availability of that 8K block!
+So there you have it, a homemade 32k ram expander. I plugged the cartridge in, and voilà, I was greeted with 28,159 bytes free, woohoo! ...now wait a minute (moment of panic), that's not 32K + 3, there is a whole 8K missing! After some research, I learned that memory block 5 is not counted by Basic! All good, a few POKEs and PEEKs confirmed the availability of that 8K block!
 
 ![Outcome](https://github.com/The8BitEnthusiast/vic20-32k-ram-cart/blob/main/pictures/ram-diff.png?raw=true)
